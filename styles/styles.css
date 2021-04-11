@@ -1,0 +1,376 @@
+* {
+    font-family: Quicksand;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
+
+section.container{
+    z-index: 2;
+}
+
+.container{
+    width: 1146px;
+}
+
+header {
+    position: relative;
+}
+
+a {
+    color: black;
+}
+
+.active-link {
+    color: #0F7cff;
+}
+
+ul {
+    padding: 0;
+    margin-right: 5.41666667%;
+    width: 36.9791667%;
+    height: 1.25rem;
+    margin-bottom: 0;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-navigation {
+    position: relative;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-block {
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.logoAppSon {
+    height: 6.25rem;
+    margin-left: 14.16666%;
+    width: 18.6458333%;
+    background: #0F7BFF;
+    border-radius: 0px 0px 1.34375rem 1.34375rem;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.auxiliary-block {
+    margin-top: 1.5625rem;
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: baseline;
+}
+
+button.sign-up {
+    padding: 0;
+    height: 3.125rem;
+    width: 17.1875%;
+    margin-right: 14.58333333%;
+    border: none;
+    background-color: #0063DD;
+    border-radius: 1.5625rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.main-phrase {
+    margin-top: 88px;
+    margin-bottom: 30px;
+    /* width: 23.69791666666%; */
+    font-weight: 700;
+    font-size: 2.36rem;
+    line-height: 2.8125rem;
+}
+
+.subtitle {
+    margin-bottom: 33px;
+    color: #929292;
+    line-height: 1.6875rem;
+}
+
+.download-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    width: 166px;
+    height: 50px;
+    /* width: calc(17.1875%/2); */
+    padding: 0;
+    background: #0F7BFF;
+    border-radius: 1.5625rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.free-trial-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    width: 166px;
+    height: 50px;
+    /* width: calc(17.1875%/2); */
+    padding: 0;
+    border: 2px solid #0F7BFF;
+    box-sizing: border-box;
+    border-radius: 1.5625rem;
+    font-weight: bold;
+    color: #0F7BFF;
+}
+
+.breath {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.phones-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phones {
+    margin-top: 108px;
+}
+
+.arrow-block {
+    margin-top: -57px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+
+.arrow-to-down {
+    z-index: 999;
+    height: 114px;
+    width: 114px;
+    margin-left: calc(50% / 57px);
+}
+
+.carts{
+    background: #F5FCFD;
+}
+
+.cards-block {
+    margin-top: 108px;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-margin {
+    margin-top: 50px;
+    margin-bottom: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body > img {
+    margin-top: 40px;
+    /* width: 70px; */
+    /* height: 70px; */
+}
+
+.card-body > h4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-body > p{
+    margin-bottom: 47px;
+    height: 60px;
+    margin-left: 14px;
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+.row.row-cols-1.row-cols-md-3.mb-3.text-center > .col:nth-of-type(1) {
+    padding-left: 0;
+}
+
+.row.row-cols-1.row-cols-md-3.mb-3.text-center > .col:nth-of-type(3) {
+    padding-right: 0;
+}
+
+.messaging {
+    margin-top: 60px;
+}
+
+.messaging > .container > .column > .row {
+    align-items: center;
+}
+
+.column { 
+    display: flex;
+    flex-direction: column;
+}
+
+.before-image {
+    margin-left: -51.6px;
+    z-index: 100;
+    border-radius: 40px;
+    background: linear-gradient(147.4deg, #0F7BFF 7.27%, #0063DD 93.68%);
+    transform: rotate(45deg);
+    position: absolute;
+    width: 558px;
+    height: 373px;
+}
+
+.picture > img {
+    position: relative;
+    z-index: 101;
+}
+
+.messaging > .container > .column > .row > .content > h2 {
+    margin-bottom: 30px;
+}
+
+.messaging > .container > .column > .row > .content > p {
+    margin-bottom: 35px;
+}
+
+a {
+    padding-left: 15px;
+    color: #0063DD;
+}
+
+.link-arrow{
+    margin-left: 15px;
+    height: 16px;
+}
+
+.messaging > .container > .column > .row:nth-of-type(2){
+    margin-top: 233px;
+}
+
+body > section.messaging > div > div > div:nth-child(2) > div.content.col > p {
+    word-wrap: break-word;
+    width: 558px;
+}
+
+.how_do_is_work {
+    background: #F5FCFD;
+    margin-top: 116px;
+}
+
+body > section.how_do_is_work > div > div:nth-child(1) > div > h4 {
+    padding-top: 119px;
+}
+
+body > section.how_do_is_work > div > div:nth-child(1) > p {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+body > section.how_do_is_work > div > div.row > div > h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body > section.how_do_is_work > div > div.row {
+    padding-bottom: 121px;
+}
+
+.pricing-plan{
+    padding-top: 130px;
+}
+
+.plan-price > h2 {
+    margin-top: 26px;
+    font-size: 32px !important;
+}
+
+.pricing-plan-contant{
+    align-items: center;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-option > h3,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-option > h3 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-option > hr,
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-option > hr {
+    height: 2px;
+    background: #E9F3F8;
+    margin-bottom: 23px;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-price > button,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-price > button {
+    margin-top: 25px;
+    width: 166px;
+    height: 50px;
+    background: none;
+    border-radius: 25px;
+    border: 1px solid #0F7BFF;
+    color: #0F7BFF;
+    margin-bottom: 46px;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-price > button:hover,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-price > button:hover {
+    background: #0F7BFF;
+    border: 1px solid #0F7BFF;
+    color: white;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-price > h2,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-price > h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0F7BFF;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-price > p,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-price > p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center,
+body > section.pricing-plan > div > div > div.col-4.text-center {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 36, 80, 0.08);
+    border-radius: 5px;
+}
+
+body > section.pricing-plan > div > div > div.col.text-center > div.plan-option > img,
+body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-option > img {
+    margin-top: 39px;
+}
