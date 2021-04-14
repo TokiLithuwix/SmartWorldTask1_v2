@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -284,6 +285,10 @@ h2 {
     margin-left: 15px;
     height: 16px;
 }
+.link-arrow-2 {
+    z-index: 3333!important;
+    height: auto!important;
+}
 
 .messaging > .container > .column > .row:nth-of-type(2){
     margin-top: 233px;
@@ -373,13 +378,17 @@ body > section.how_does_it_works > div > div.row {
 .circle-1 {
     transform: translateX(3.5px);
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
     border-top-left-radius: 20px;
+    border-top-right-radius: 0;
     width: 169px;
 }
 .circle-2 {
     transform: translateX(3.5px);
     border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0;
     border-top-right-radius: 20px;
+    border-top-left-radius: 0;
     width: 169px;
 }
 
@@ -428,9 +437,15 @@ footer {
     color: #FFFFFF;
 }
 
+.w-50 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
 
-
-
+.mail-registration {
+    
+}
 
 
 
@@ -492,4 +507,33 @@ body > section.pricing-plan > div > div > div.col-4.text-center {
 body > section.pricing-plan > div > div > div.col.text-center > div.plan-option > img,
 body > section.pricing-plan > div > div > div.col-4.text-center > div.plan-option > img {
     margin-top: 39px;
+}
+
+body > section.free-trial > div > div {
+    align-items: baseline;
+}
+
+body > section.free-trial > div > div > div.free-tr.col-4 > h4 {
+    width: 96%;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+body > section.free-trial > div > div > div.button-g-s.col-3 > button {
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+}
+
+body > section.free-trial > div > div > div.button-g-s.col-3 > button > a > img{
+    width: 30px;
+    margin-left: 13px;
+    color: white;
+    height: 1px;
+}
+
+body > section.free-trial > div > div > div.button-g-s.col-3 > button > a {
+    color: white !important;
 }
